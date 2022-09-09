@@ -371,3 +371,141 @@ a {
    font-weight: 400;
    color: #555555;
 }
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+   font-size: 14px;
+   background-color: rgb(151, 148, 148);
+   padding: 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+   top: 40%;
+   width: 35px;
+   height: 35px;
+   color: #fff;
+}
+
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+   background-color: #c0301c;
+}
+
+
+/*        Latest works        */
+
+
+.works {
+   width: 100%;
+   height: auto;
+   padding: 100px 0;
+}
+
+.works__inner {
+   text-align: center;
+}
+
+.works__type {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+.works__item {
+   position: relative;
+}
+
+.works__item:not(:last-child) {
+   margin-right: 30px;
+}
+
+.works__item a::after {
+   content: '';
+   position: absolute;
+   bottom: -5px;
+   left: 0;
+   width: 100%;
+   height: 3px;
+   background-color: rgba(27, 27, 27, 0.5);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.works__item:hover.works__item a::after {
+   opacity: 1;
+}
+
+.works__block {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   row-gap: 30px;
+   column-gap: 30px;
+}
+
+.works__card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+.works__card__title {
+   font-family: Montserrat;
+   font-size: 18px;
+   line-height: 24px;
+   font-weight: 400;
+   color: #fff;
+}
+
+.works__card__type {
+   font-family: 'Roboto Slab';
+   font-size: 12px;
+   line-height: 24px;
+   font-weight: 400;
+   margin-bottom: 10px;
+   color: #fff;
+}
+
+.works__card__button {
+   color: #ce6a5f;
+   font-family: inherit;
+   text-transform: uppercase;
+   font-size: 14px;
+   letter-spacing: 2px;
+   padding: 10px 30px;
+   background-color: #fff;
+   transition: all 0.3s ease-in-out;
+}
+
+.works__card__button:hover {
+   background-color: #c0301c;
+   color: #fff;
+}
+
+.works__content {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 360px;
+   height: 320px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #ce6a5fb7;
+   transition: opacity 0.5s ease-in-out;
+   opacity: 0;
+}
+
+.works__card:hover .works__content {
+   opacity: 1;
+}
