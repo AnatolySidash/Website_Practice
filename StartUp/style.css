@@ -140,19 +140,36 @@ a {
 
 .hero__title {
    font-family: Montserrat;
-   font-size: 48px;
+   font-size: 60px;
    line-height: 24px;
    font-weight: 400;
    text-transform: uppercase;
    color: #ffffff;
    margin-bottom: 30px;
+   transform: translate(0, 120%);
+   transition: all 0.8s ease;
+   opacity: 0;
 }
+
+.hero__title._active {
+   transform: translate(0, 0);
+   opacity: 1;
+}
+
 
 .hero__subtitle {
    font-family: 'Roboto Slab';
    font-size: 20px;
    font-weight: 400;
    margin-bottom: 40px;
+   transform: translate(0, 120%);
+   transition: all 0.8s ease 0.4s;
+   opacity: 0;
+}
+
+.hero__subtitle._active {
+   transform: translate(0, 0);
+   opacity: 1;
 }
 
 .button {
@@ -161,16 +178,26 @@ a {
    font-family: Montserrat;
    font-size: 16px;
    line-height: 24px;
+   letter-spacing: 3px;
    font-weight: 400;
    text-transform: uppercase;
    border: 2px solid #fff;
    border-radius: 2px;
-   transition: all 0.3s ease;
+   transition: background-color 0.3s ease-in-out;
+   transform: translate(0, 120%);
+   transition: transform 0.8s ease 0.7s, opacity 0.8s ease 0.7s;
+   opacity: 0;
+}
+
+.button._active {
+   transform: translate(0, 0);
+   opacity: 1;
 }
 
 .button:hover {
    background-color: #fff;
    color: #000;
+   transition: background-color 0.3s ease-in-out;
 }
 
 
@@ -189,13 +216,21 @@ a {
 
 .section__title {
    font-family: Montserrat;
-   font-size: 20px;
+   font-size: 32px;
    line-height: 24px;
    font-weight: 600;
    text-transform: uppercase;
    color: #555555;
    margin-bottom: 50px;
    position: relative;
+   transform: translate(0, 120%);
+   transition: all 0.8s ease 0.4s;
+   opacity: 0;
+}
+
+.section__title._active {
+   transform: translate(0, 0);
+   opacity: 1;
 }
 
 .section__title::after {
@@ -216,6 +251,14 @@ a {
    font-weight: 600;
    color: #555555;
    margin-bottom: 70px;
+   transform: translate(0, 120%);
+   transition: all 0.8s ease 0.8s;
+   opacity: 0;
+}
+
+.section__subtitle._active {
+   transform: translate(0, 0);
+   opacity: 1;
 }
 
 .services__content {
@@ -231,6 +274,14 @@ a {
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   transform: translate(0, 120%);
+   transition: all 1s ease 0.4s;
+   opacity: 0;
+}
+
+.services__item._active {
+   transform: translate(0, 0);
+   opacity: 1;
 }
 
 .services__logo {
@@ -300,6 +351,14 @@ a {
    color: #555555;
    text-align: left;
    margin-bottom: 70px;
+   transform: translate(0, 120%);
+   transition: all 1s ease 0.4s;
+   opacity: 0;
+}
+
+.about__text__item._active {
+   transform: translate(0, 0);
+   opacity: 1;
 }
 
 .about__staff {
@@ -311,6 +370,14 @@ a {
 
 .staff__card {
    width: 25%;
+   transform: translate(0, 120%);
+   transition: all 1s ease 0.4s;
+   opacity: 0;
+}
+
+.staff__card._active {
+   transform: translate(0, 0);
+   opacity: 1;
 }
 
 .staff__card__inner {
@@ -385,6 +452,15 @@ a {
    width: 35px;
    height: 35px;
    color: #fff;
+   transform: translate(0, 120%);
+   transition: all 1s ease 0.8s;
+   opacity: 0;
+}
+
+.swiper-button-prev._active,
+.swiper-button-next._active {
+   transform: translate(0, 0);
+   opacity: 1;
 }
 
 .swiper-button-prev:hover::after,
