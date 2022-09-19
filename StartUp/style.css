@@ -657,6 +657,7 @@ a {
 
 /*        Blog        */
 
+
 .blog {
    padding: 50px 0;
 }
@@ -784,4 +785,173 @@ a {
 
 .article__link:hover {
    text-decoration: underline;
+}
+
+
+/*        Partners        */
+
+
+.partners {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 70px;
+}
+
+.partner__item:not(:last-child) {
+   margin-right: 70px;
+}
+
+
+/*        Quotes        */
+
+
+.quotes {
+   padding: 50px 0;
+   text-align: center;
+}
+
+.quote__text {
+   font-family: 'Roboto Slab';
+   font-size: 24px;
+   line-height: 30px;
+   font-weight: 400;
+   font-style: italic;
+   color: #555555;
+}
+
+.quote__author,
+.quote__job {
+   font-size: 20px;
+   font-style: normal;
+}
+
+
+/*        Contact        */
+
+
+.contact {
+   padding: 50px 0;
+}
+
+.contact__inner {
+   text-align: center;
+}
+
+.contact__block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.contact__content {
+   width: 40%;
+}
+
+.contact__item {
+   display: flex;
+   justify-content: left;
+   align-items: flex-start;
+   text-align: left;
+   margin-bottom: 30px;
+}
+
+.item__image {
+   margin-right: 10px;
+}
+
+.item__title {
+   font-family: Montserrat;
+   font-size: 14px;
+   line-height: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   color: #555555;
+}
+
+.item__text {
+   display: block;
+   margin-top: 10px;
+   font-family: 'Roboto Slab';
+   font-size: 12px;
+   line-height: 20px;
+   font-weight: 400;
+   color: #555555;
+   text-transform: initial;
+}
+
+.form {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 30px;
+   row-gap: 30px;
+   margin-bottom: 30px;
+}
+
+.form input {
+   width: 350px;
+   height: 44px;
+   padding: 5px 15px;
+   outline: none;
+   font-family: 'Roboto Slab';
+   font-size: 14px;
+   line-height: 20px;
+   font-weight: 400;
+   color: #555555;
+}
+
+.form input:focus {
+   background-color: beige;
+   outline: none;
+}
+
+.form input::placeholder {
+   text-transform: uppercase;
+}
+
+.text__area {
+   grid-area: 3/1/3/3;
+   min-height: 100px;
+   resize: none;
+   padding: 10px 15px;
+   outline: none;
+   font-family: 'Roboto Slab';
+   font-size: 14px;
+   line-height: 20px;
+   font-weight: 400;
+   color: #555555;
+}
+
+.text__area:focus {
+   background-color: beige;
+}
+
+.text__area::placeholder {
+   font-family: 'Roboto Slab';
+   font-size: 14px;
+   line-height: 20px;
+   font-weight: 400;
+   text-transform: uppercase;
+   color: #555555;
+}
+
+.form__button {
+   font-family: 'Roboto Slab';
+   font-size: 14px;
+   border: 1px solid #555;
+   padding: 15px 40px;
+   font-family: inherit;
+   text-transform: uppercase;
+   color: #555;
+   letter-spacing: 1px;
+   transition: all 0.3s linear;
+}
+
+.contact__form {
+   text-align: left;
+}
+
+.form__button:hover {
+   background-color: #777;
+   color: #fff;
 }

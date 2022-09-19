@@ -10,6 +10,18 @@ const swiper = new Swiper('.swiper', {
    },
 });
 
+const swiper2 = new Swiper('.swiper2', {
+   loop: true,
+   centeredSlides: true,
+   slidesPerView: 1,
+   grabCursor: true,
+
+
+   pagination: {
+      el: ".swiper-pagination2",
+   },
+});
+
 
 const animItems = document.querySelectorAll('._anim__item');
 
