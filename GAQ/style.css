@@ -181,6 +181,7 @@ h6 {
 .item__red {
    background-color: var(--red);
    border: 2px solid var(--red);
+   color: #fff;
 }
 
 .main__title {
@@ -232,18 +233,21 @@ h6 {
    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.08);
 }
 
-.hub__block {
+.hub__block,
+.objectives__block {
    margin-bottom: 80px;
 }
 
-.hub__block__title {
+.hub__block__title,
+.objectives__block__title {
    font-size: 25px;
    line-height: 28px;
    margin-bottom: 20px;
    color: var(--blue);
 }
 
-.hub__block__content {
+.hub__block__content,
+.objectives__block__content {
    max-width: 1120px;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -252,7 +256,8 @@ h6 {
    row-gap: 20px;
 }
 
-.hub__block__item {
+.hub__block__item,
+.objectives__block__item {
    width: 360px;
    height: 80px;
    display: flex;
@@ -262,7 +267,8 @@ h6 {
    background-color: #F3F6F9;
 }
 
-.block__image {
+.block__image,
+.objectives__block__image {
    width: 60px;
    height: 60px;
    background-color: #fff;
@@ -271,17 +277,66 @@ h6 {
    align-items: center;
 }
 
-.block__name {
+.radio__block,
+.checkbox__block {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 30px;
+   position: relative;
+}
+
+.block__name,
+.checkbox__block__name {
    font-size: 20px;
    color: var(--blue);
    font-weight: 600;
    width: 160px;
    text-align: left;
+   cursor: pointer;
 }
 
-.block__checkbox {
+.checkbox__block__name {
+   width: 220px;
+   font-size: 16px;
+}
+
+.block__name::before {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0;
+   right: 0;
    width: 30px;
    height: 30px;
+   background-color: #fff;
+   border: 1px solid #E5E4E1;
+   border-radius: 50%;
+   z-index: 1;
+}
+
+.block__radio {
+   -webkit-appearance: none;
+   appearance: none;
+   position: absolute;
+}
+
+.block__name::after {
+   content: '';
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   width: 22px;
+   height: 22px;
+   border-radius: 50%;
+   background-color: var(--red);
+   z-index: 2;
+   opacity: 0;
+}
+
+.block__radio:checked+.block__name::after {
+   opacity: 1;
 }
 
 .main__button {
@@ -297,7 +352,11 @@ h6 {
    background-color: var(--blue);
 }
 
-.checked {
-   border: 1px solid var(--red);
-   box-shadow: 0px 10px 20px rgba(116, 120, 135, 0.1);
+
+/* ------Objectives------ */
+
+
+.objectives {
+   width: 100%;
+   height: 100vh;
 }
