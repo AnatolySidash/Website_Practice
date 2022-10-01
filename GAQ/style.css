@@ -144,7 +144,7 @@ h6 {
 }
 
 .main__logo {
-   margin-bottom: 80px;
+   margin-bottom: 50px;
 }
 
 .section__bar {
@@ -153,7 +153,7 @@ h6 {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-bottom: 60px;
+   margin-bottom: 50px;
    position: relative;
 }
 
@@ -253,7 +253,11 @@ h6 {
    grid-template-columns: 1fr 1fr 1fr;
    column-gap: 20px;
    grid-template-rows: 1fr 1fr;
-   row-gap: 20px;
+   row-gap: 15px;
+}
+
+.objectives__block__content {
+   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .hub__block__item,
@@ -283,7 +287,7 @@ h6 {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding-left: 30px;
+   padding-left: 20px;
    position: relative;
 }
 
@@ -302,7 +306,9 @@ h6 {
    font-size: 16px;
 }
 
-.block__name::before {
+
+/* .block__name::before,
+.checkbox__block__name::before {
    content: '';
    display: block;
    position: absolute;
@@ -316,14 +322,23 @@ h6 {
    z-index: 1;
 }
 
-.block__radio {
+.checkbox__block__name::before {
+   top: -3px;
+   border-radius: 5px;
+}
+
+.block__radio,
+.block__checkbox {
    -webkit-appearance: none;
    appearance: none;
    position: absolute;
-}
+} */
 
-.block__name::after {
+/* 
+.block__name::after,
+.checkbox__block__name::after {
    content: '';
+   display: block;
    position: absolute;
    top: 5px;
    right: 5px;
@@ -335,9 +350,24 @@ h6 {
    opacity: 0;
 }
 
+.checkbox__block__name::after {
+   background: url(img/03_objectives/Vector\ 5.svg) center no-repeat;
+   background-color: var(--red);
+   width: 31px;
+   height: 31px;
+   border-radius: 5px;
+   top: -2px;
+   right: 1px;
+   opacity: 1;
+}
+
 .block__radio:checked+.block__name::after {
    opacity: 1;
 }
+
+.block__checkbox:checked+.checkbox__block__name::after {
+   opacity: 1;
+} */
 
 .main__button {
    padding: 18px 49px;
@@ -348,8 +378,20 @@ h6 {
    transition: all 0.3s linear;
 }
 
+.button__back {
+   background-color: #fff;
+   border: 1px solid #E5E4E1;
+   color: var(--blue);
+   margin-right: 20px;
+}
+
 .main__button:hover {
    background-color: var(--blue);
+}
+
+.button__back:hover {
+   background-color: var(--red);
+   color: #fff;
 }
 
 
