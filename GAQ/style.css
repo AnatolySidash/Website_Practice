@@ -89,30 +89,6 @@ h6 {
    margin-bottom: 40px;
 }
 
-.hero__button {
-   padding: 18px 85px 18px 30px;
-   border: none;
-   background-color: var(--red);
-   font-size: 22px;
-   color: #fff;
-   font-family: inherit;
-   cursor: pointer;
-   position: relative;
-   transition: all 0.3s linear;
-}
-
-.hero__button:hover {
-   background-color: var(--blue);
-}
-
-
-.hero__arrow {
-   position: absolute;
-   top: 50%;
-   right: 30px;
-   transform: translateY(-50%);
-}
-
 .hero__bottom {
    margin: 450px 0 0 100px;
    display: flex;
@@ -133,6 +109,124 @@ h6 {
 .hero__sign__link:hover {
    text-decoration: underline;
 }
+
+
+
+/* ------Hero button------ */
+
+
+
+.hero__button {
+   display: block;
+   width: 250px;
+   height: 60px;
+   border: none;
+   background-color: var(--red);
+   font-size: 20px;
+   color: #fff;
+   font-family: inherit;
+   cursor: pointer;
+   position: relative;
+   transition: all 0.3s linear;
+   overflow: hidden;
+   display: flex;
+   justify-content: start;
+   padding-left: 30px;
+   align-items: center;
+}
+
+.hero__button::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0px;
+   height: 100%;
+   background-color: var(--blue);
+   transition: 0.5s ease-in-out;
+   transition-delay: 0.8s;
+}
+
+.hero__button::after {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 0px;
+   height: 100%;
+   background-color: var(--blue);
+   transition: 0.5s ease-in-out;
+   transition-delay: 0.8s;
+}
+
+.hero__button:hover::before,
+.hero__button:hover::after {
+   width: 50%;
+   transition-delay: 1.0s;
+}
+
+.hero__button img {
+   display: inline-block;
+   position: absolute;
+   top: 50%;
+   right: 30px;
+   transform: translateY(-50%);
+   transition: 0.5s;
+}
+
+.hero__button i {
+   display: inline-block;
+   position: absolute;
+   top: 50%;
+   right: -30px;
+   font-size: 20px;
+   transform: translateY(-50%);
+   color: #fff;
+   opacity: 0;
+   transition: 0.6s;
+}
+
+.hero__button span {
+   position: absolute;
+   z-index: 1;
+   color: #fff;
+   transition: 0.8s;
+}
+
+.hero__button span:nth-child(1) {
+   transition-delay: 1.2s;
+}
+
+.hero__button:hover span:nth-child(1) {
+   transform: scale(0);
+   transition-delay: 0.5s;
+}
+
+.hero__button span:nth-child(2) {
+   transform: scale(3);
+   opacity: 0;
+   color: #fff;
+   transition-delay: 0s;
+}
+
+.hero__button:hover span:nth-child(2) {
+   transform: scale(1);
+   opacity: 1;
+   transition-delay: 1.5s;
+   z-index: 10;
+}
+
+.hero__button:hover img {
+   right: -30px;
+}
+
+.hero__button:hover i {
+   right: 30px;
+   opacity: 1;
+   transition-delay: 2.3s;
+   z-index: 10;
+}
+
 
 
 /* ------Hub------ */
@@ -482,4 +576,44 @@ h6 {
    position: absolute;
    top: 90px;
    left: 30px;
+}
+
+
+/* ------Interests------ */
+
+
+.interest__content {
+   width: 100%;
+}
+
+.interest__block {
+   margin-bottom: 30px;
+}
+
+.interest__title {
+   font-size: 25px;
+   color: var(--blue);
+   margin-bottom: 20px;
+}
+
+.interest__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: start;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+
+.interest__item {
+   list-style: none;
+   padding: 15px 24px;
+   color: var(--grey);
+   background: #FFFFFF;
+   border: 1px solid #E5E4E1;
+   margin-bottom: 10px;
+}
+
+.interest__item:not(:last-child) {
+   margin-right: 10px;
 }
