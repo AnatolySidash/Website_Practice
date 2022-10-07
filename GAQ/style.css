@@ -638,9 +638,10 @@ h6 {
    list-style: none;
    padding: 15px 24px;
    color: var(--grey);
-   background: #FFFFFF;
+   background: #fff;
    border: 1px solid #E5E4E1;
    margin-bottom: 10px;
+   cursor: pointer;
 }
 
 .interest__item:not(:last-child) {
@@ -657,4 +658,62 @@ h6 {
    appearance: none;
    -webkit-appearance: none;
    position: absolute;
+}
+
+.interest__item__name {
+   cursor: pointer;
+}
+
+
+
+/* ------Form------ */
+
+
+
+.form {
+   width: 930px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr;
+   column-gap: 10px;
+   row-gap: 10px;
+   position: relative;
+   margin-bottom: 120px;
+}
+
+.form__input {
+   height: 60px;
+   background: #FFFFFF;
+   border: 1px solid #E5E4E1;
+   padding: 20px 20px 20px 65px;
+   font-size: 18px;
+   color: var(--grey);
+   font-family: inherit;
+   font-weight: 300;
+   outline: none;
+}
+
+.form .form__icon {
+   position: absolute;
+   top: 20px;
+   left: 30px;
+   z-index: 2;
+}
+
+.form .form__icon:nth-child(2) {
+   left: 500px;
+}
+
+.form__textarea {
+   height: 240px;
+   background: #FFFFFF;
+   border: 1px solid #E5E4E1;
+   padding: 20px 20px 20px 30px;
+   font-size: 18px;
+   color: var(--grey);
+   font-family: inherit;
+   font-weight: 300;
+   outline: none;
+   resize: none;
+   grid-area: 2 / 1 / 3 / 3;
 }
