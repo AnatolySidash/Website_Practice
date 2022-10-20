@@ -412,9 +412,18 @@ ol {
    transition: all 0.3s linear;
 }
 
+.link__red {
+   background-color: var(--red);
+}
+
 .learn__link:hover {
    color: var(--dark);
    background-color: var(--red);
+}
+
+.link__red:hover {
+   background-color: #cfaeae;
+   color: var(--black);
 }
 
 .ask__link {
@@ -454,6 +463,10 @@ ol {
    align-items: center;
 }
 
+.reverse {
+   padding-left: 100px;
+}
+
 .analysis__title {
    font-weight: 600;
    max-width: 520px;
@@ -471,6 +484,14 @@ ol {
    font-weight: 600;
    max-width: 480px;
    margin-bottom: 20px;
+}
+
+.standard {
+   font-weight: 400;
+}
+
+.analysis__text span {
+   font-weight: 600;
 }
 
 .adv__item {
@@ -492,4 +513,9 @@ ol {
    width: 140%;
    margin-top: 75px;
    margin-left: -90px;
+}
+
+.laptop {
+   margin-left: -130px;
+   margin-bottom: 120px;
 }
