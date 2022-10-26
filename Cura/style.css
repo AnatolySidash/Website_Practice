@@ -309,6 +309,28 @@ ol {
    text-transform: capitalize;
    color: #037E78;
    margin-bottom: 60px;
+   position: relative;
+}
+
+.section__title::after {
+   content: "";
+   position: absolute;
+   bottom: -30px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 90px;
+   height: 4px;
+   background-color: #DEE7E6;
+}
+
+.title__left {
+   max-width: 780px;
+   text-align: left;
+}
+
+.title__left::after {
+   left: 0;
+   transform: none;
 }
 
 .section__text {
@@ -318,6 +340,11 @@ ol {
    text-align: center;
    color: #434343;
    margin-bottom: 45px;
+}
+
+.text__left {
+   max-width: 680px;
+   text-align: left;
 }
 
 .deseases__image {
@@ -331,4 +358,81 @@ ol {
    text-align: center;
    color: #000;
    margin-bottom: 45px;
+}
+
+
+/* ----------Diagnosis----------- */
+
+
+.diagnosis {
+   width: 100%;
+   height: 100%;
+   background-color: #FBF1EC;
+   position: relative;
+}
+
+
+.diagnosis__inner {
+   width: 100%;
+   padding: 200px 0 200px 160px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.diagnosis__item {
+   width: 50%;
+}
+
+.diagnosis__image {
+   width: 110%;
+}
+
+
+/* ----------Staff----------- */
+
+
+.staff {
+   width: 100%;
+   height: 100%;
+}
+
+.staff__inner {
+   width: 100%;
+   padding: 200px 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.card__block {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 120px;
+}
+
+.card__item {
+   width: 30%;
+   text-align: center;
+}
+
+.staff__photo {
+   max-width: 390px;
+}
+
+.staff__name {
+   font-size: 42px;
+   color: var(--black);
+}
+
+.staff__major {
+   font-size: 24px;
+   line-height: 2;
+   color: #569C9C;
+   font-weight: 600;
+   max-width: 450px;
+   margin: 0 auto;
 }
