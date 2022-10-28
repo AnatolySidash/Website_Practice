@@ -502,6 +502,7 @@ button {
 
 /* ----------Footer----------- */
 
+
 .footer {
    width: 100%;
 }
@@ -571,4 +572,59 @@ button {
 
 .footer__text {
    color: var(--white);
+}
+
+
+
+/* ----------Second Page----------- */
+
+/* ----------Hero----------- */
+
+.hero__second {
+   background: url(img/01_hero/hero_bg_02.png) top no-repeat;
+}
+
+.inner__second {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content__center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 20px;
+}
+
+.title__after::after {
+   display: none;
+}
+
+
+/* ----------Services----------- */
+
+
+.services__second {
+   height: auto;
+   background: #fff;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.title__center {
+   margin: 100px auto 30px;
+}
+
+.color__green {
+   color: var(--primary);
+}
+
+.color__green::after {
+   background-color: #c4c4c4;
+}
+
+.icon__green {
+   background-color: var(--logo);
 }
