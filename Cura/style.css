@@ -398,7 +398,7 @@ button {
 
 .staff__inner {
    width: 100%;
-   padding: 200px 10px;
+   padding: 100px 10px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -478,7 +478,7 @@ button {
 .partners {
    width: 100%;
    height: 100%;
-   padding: 150px 20px;
+   padding: 100px 20px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -627,4 +627,62 @@ button {
 
 .icon__green {
    background-color: var(--logo);
+}
+
+
+/* ----------Staff----------- */
+
+
+.staff__content {
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: top;
+   padding: 100px 165px;
+}
+
+.staff__content__item {
+   width: 50%;
+}
+
+.staff__title {
+   font-size: 42px;
+   line-height: 1.5;
+   color: var(--black);
+}
+
+.staff__job {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 1.9;
+   color: #569C9C;
+   margin-bottom: 40px;
+}
+
+.staff__text {
+   font-size: 24px;
+   line-height: 1.5;
+   color: var(--primary);
+   margin-bottom: 30px;
+}
+
+.staff__face {
+   width: 100%;
+   padding-left: 120px;
+}
+
+.staff__partners {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.staff__partners img {
+   margin-right: 35px;
+   background-blend-mode: luminosity;
+}
+
+.content__reverse {
+   padding-left: 0;
+   padding-right: 120px;
 }
