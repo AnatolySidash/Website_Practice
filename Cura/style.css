@@ -236,6 +236,7 @@ button {
   justify-content: top;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .services__icon {
@@ -963,7 +964,44 @@ button {
   color: var(--orange);
 }
 
+/* ----------Booking----------- */
+
+.booking {
+  padding: 40px 20px 150px;
+  background: linear-gradient(180deg, #FFF8F4 0%, rgba(255, 248, 244, 0.44) 100%);
+}
+
+.booking__calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.booking__calendar img {
+  object-fit: cover;
+}
+
+.icon__center img {
+  padding-left: 13px;
+}
+
+.item__arrow::after {
+  content: '';
+  background: url(img/14_consultation/arrow.svg) center no-repeat;
+  position: absolute;
+  width: 20px;
+  height: 22px;
+  top: 55px;
+  right: -60px;
+}
+
+
 /* ----------Refer----------- */
+
+.refer {
+  margin-top: 50px;
+}
 
 .text__italic {
   font-style: italic;
