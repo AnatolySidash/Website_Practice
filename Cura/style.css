@@ -1157,3 +1157,71 @@ button {
   right: 85px;
   top: 12px;
 }
+
+
+/* ----------Sixth Page----------- */
+
+/* ----------Hero----------- */
+
+.hero__sixth {
+  background: url(img/01_hero/hero_bg_06.png) top no-repeat;
+  background-size: cover;
+}
+
+
+/* ----------Blog----------- */
+
+
+.blog {
+  padding: 100px 135px;
+}
+
+.blog__main {
+  width: 55%;
+}
+
+.blog__item {
+  margin-bottom: 120px;
+}
+
+.blog__image img {
+  width: 100%;
+}
+
+.blog__post_data {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.5;
+  color: var(--primary);
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.blog__post_date {
+  padding-right: 16px;
+  padding-left: 23px;
+}
+
+.blog__post_author {
+  padding-left: 16px;
+  border-left: 2px solid #DEE7E6;
+}
+
+.blog__post_title {
+  font-size: 36px;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  border-top: 1px solid #DEE7E6;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.blog__post_text {
+  font-size: 24px;
+  line-height: 1.5;
+}
