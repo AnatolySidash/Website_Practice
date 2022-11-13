@@ -1321,3 +1321,63 @@ button {
   text-transform: uppercase;
   color: #434343;
 }
+
+
+/* ----------Seventh Page----------- */
+
+/* ----------Hero----------- */
+
+.hero__seventh {
+  background: url(img/01_hero/hero_bg_07.png) top no-repeat;
+  background-size: cover;
+}
+
+
+/* ----------Stroke Navigation----------- */
+
+.stroke-nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.stroke-nav__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  min-height: 200px;
+  transition: all .3s ease-in-out;
+}
+
+.stroke-nav__block {
+  text-align: center;
+  padding: 40px 10px;
+  cursor: pointer;
+}
+
+.stroke-nav__image {
+  margin-bottom: 15px;
+}
+
+.stroke-nav__image path {
+  transition: all .3s ease-in-out;
+}
+
+.stroke-nav__item:hover {
+  background-color: var(--logo);
+}
+
+.stroke-nav__title {
+  transition: all .3s ease-in-out;
+}
+
+.stroke-nav__item:hover .stroke-nav__title {
+  color: var(--white);
+}
+
+.stroke-nav__item:hover .stroke-nav__image path {
+  stroke: white;
+}
