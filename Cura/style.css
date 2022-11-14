@@ -341,9 +341,17 @@ button {
   margin-bottom: 45px;
 }
 
+.section__text span {
+  font-weight: 700;
+}
+
 .text__left {
   max-width: 680px;
   text-align: left;
+}
+
+.text__wide {
+  max-width: 1250px;
 }
 
 .color__white {
@@ -374,6 +382,9 @@ button {
   position: relative;
 }
 
+.white_bg {
+  background-color: #fff;
+}
 
 .diagnosis__inner {
   width: 100%;
@@ -390,6 +401,10 @@ button {
 .diagnosis__image {
   width: 100%;
   object-fit: cover;
+}
+
+.width_580 {
+  width: 580px;
 }
 
 
@@ -620,7 +635,7 @@ button {
 }
 
 .title__center {
-  margin: 100px auto 30px;
+  margin: 100px auto 60px;
 }
 
 .color__green {
@@ -1380,4 +1395,15 @@ button {
 
 .stroke-nav__item:hover .stroke-nav__image path {
   stroke: white;
+}
+
+.stroke-inner {
+  padding: 0 160px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stroke-reason {
+  background: linear-gradient(180deg, #FFF8F4 0%, rgba(255, 248, 244, 0.44) 100%);
 }
