@@ -545,6 +545,10 @@ button {
   width: 30%;
 }
 
+.footer__item:last-child {
+  align-self: flex-start;
+}
+
 .list__data {
   display: flex;
   align-items: center;
@@ -1406,4 +1410,67 @@ button {
 
 .stroke-reason {
   background: linear-gradient(180deg, #FFF8F4 0%, rgba(255, 248, 244, 0.44) 100%);
+}
+
+.stroke-accordion__inner {
+  padding: 40px 160px;
+}
+
+.stroke-accordion__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.stroke-accordion__item {
+  width: 1170px;
+  padding: 30px 17px 30px 60px;
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba(106, 87, 79, 0.15);
+  margin-bottom: 10px;
+}
+
+.stroke-accordion__upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stroke-accordion__question {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.stroke-accordion__answer {
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-right: 60px;
+  border-top: 1px solid #ccc;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  transition: all 0.3s linear;
+  display: none;
+}
+
+.button-plus {
+  cursor: pointer;
+}
+
+.button-plus path {
+  transition: all 0.3s ease-in-out;
+}
+
+.button-plus:hover path {
+  fill: var(--orange);
+}
+
+.show__text {
+  display: block;
 }
