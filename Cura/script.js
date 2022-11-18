@@ -1,8 +1,5 @@
-const parent = document.querySelector('.stroke-accordion__content');
-const question = document.querySelector('.stroke-accordion__answer');
-
-parent.addEventListener('click', function (e) {
-  if (e.target.closest('.button-plus')) {
-    question.classList.toggle('show__text');
-  }
+let swiper = new Swiper(".blog-slider__block", {
+  slidesPerView: 4,
+  spaceBetween: 50,
+  loop: true,
 });

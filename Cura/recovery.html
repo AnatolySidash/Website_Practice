@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
   <title>Cura / Stroke Recovery</title>
 
@@ -111,6 +112,17 @@
             </p>
           </article>
 
+          <div class="blog__author-card">
+            <img class="blog__author-photo" src="img/17_recovery/author.png" alt="">
+            <div class="blog__author-info">
+              <h3 class="blog__category blog__category_small-size">About the Author</h3>
+              <h4 class="blog__author-name">Dr Stephen Winters</h4>
+              <p class="blog__author-text">Dr Hugh Stephen Winters is a neurologist with four years of exhaustive
+                training in interventional neuroradiology, which includes a year of clinical and procedural fellowship
+                in Clinical and Procedural Fellowship in Interventional Neuroradiology at the Erlanger Medical Center in
+                Tennessee.</p>
+            </div>
+          </div>
         </div>
 
         <aside class="blog__aside">
@@ -160,7 +172,7 @@
                 </a>
               </li>
               <li class="blog__popular-item">
-                <a href="#" class="blog__popular-link">
+                <a href="recovery.html" class="blog__popular-link">
                   <img src="img/15_blog/blog_2.png" alt="">
                   <div class="blog__popular-content">
                     <h3 class="blog__popular-date">August 15, 2021</h3>
@@ -195,11 +207,105 @@
                   </div>
                 </a>
               </li>
-
             </ul>
           </div>
         </aside>
+      </section>
 
+      <section class="blog-slider">
+        <h1 class="section__title title__center">You might also like these posts</h1>
+        <div class="blog-slider__block swiper">
+          <div class="blog-slider__inner swiper-wrapper">
+            <div class="blog-slider__card swiper-slide">
+              <a href="stroke.html" class="blog-slider__link">
+                <img class="blog-slider__image" src="img/15_blog/blog_3.jpg" alt="">
+                <div class="blog-slider__content">
+                  <h3 class="blog__popular-date">August 22, 2021</h3>
+                  <p class="blog__popular-text">Treating Stroke is all About Preventing the Next One.</p>
+                </div>
+              </a>
+            </div>
+            <div class="blog-slider__card swiper-slide">
+              <a href="stroke.html" class="blog-slider__link">
+                <img class="blog-slider__image" src="img/15_blog/blog_2.png" alt="">
+                <div class="blog-slider__content">
+                  <h3 class="blog__popular-date">August 15, 2021</h3>
+                  <p class="blog__popular-text">Stroke Recovery.<br>Here is what to expect.</p>
+                </div>
+              </a>
+            </div>
+            <div class="blog-slider__card swiper-slide">
+              <a href="stroke.html" class="blog-slider__link">
+                <img class="blog-slider__image" src="img/15_blog/blog_1.png" alt="">
+                <div class="blog-slider__content">
+                  <h3 class="blog__popular-date">August 8, 2021</h3>
+                  <p class="blog__popular-text">What is stroke?</p>
+                </div>
+              </a>
+            </div>
+            <div class="blog-slider__card swiper-slide">
+              <a href="stroke.html" class="blog-slider__link">
+                <img class="blog-slider__image" src="img/15_blog/blog_4.jpg" alt="">
+                <div class="blog-slider__content">
+                  <h3 class="blog__popular-date">August 1, 2021</h3>
+                  <p class="blog__popular-text">Don't Allow Migraine to Become the Headache of Your Life</p>
+                </div>
+              </a>
+            </div>
+            <div class="blog-slider__card swiper-slide">
+              <a href="stroke.html" class="blog-slider__link">
+                <img class="blog-slider__image" src="img/15_blog/blog_5.jpg" alt="">
+                <div class="blog-slider__content">
+                  <h3 class="blog__popular-date">July 23, 2021</h3>
+                  <p class="blog__popular-text">Timely Neurological Care for Idiopathic Intracranial Hypertension</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="action action__blog">
+        <div class="action__inner">
+          <h1 class="section__title">Have a Question <br>
+            or Need a Consultation?</h1>
+          <p class="section__text">We understand that neurological conditions make patients vulnerable. We are
+            committed to finding the right answers as quickly as possible through state of art diagnostics and
+            establishing the very best individualised treatment plans.
+          </p>
+          <div class="action__type">
+            <div class="action__item">
+              <a href="contact.html">
+                <div class="action__icon">
+                  <img src="img/10_action/action_1.svg" alt="Ask a Question">
+                </div>
+              </a>
+              <h3 class="action__title">
+                <a href="contact.html">Ask<br>a Question</a>
+              </h3>
+            </div>
+            <div class="action__item">
+              <a href="contact.html">
+                <div class="action__icon">
+                  <img src="img/10_action/action_2.svg" alt="Book an Appointment">
+                </div>
+              </a>
+              <h3 class="action__title">
+                <a href="contact.html">Book an Appointment</a>
+              </h3>
+            </div>
+            <div class="action__item">
+              <a href="contact.html">
+                <div class="action__icon">
+                  <img src="img/10_action/action_3.svg" alt="Live Chat">
+                </div>
+              </a>
+              <h3 class="action__title">
+                <a href="contact.html">Live Chat</a>
+              </h3>
+            </div>
+          </div>
+        </div>
       </section>
 
       <footer class="footer">
@@ -250,7 +356,7 @@
 
   </div>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
 
