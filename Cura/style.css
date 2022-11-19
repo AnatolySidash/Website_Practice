@@ -1570,3 +1570,13 @@ button {
 .action__blog {
   background: #fff;
 }
+
+
+/* ----------Ninth Page----------- */
+
+/* ----------Hero----------- */
+
+.hero__ninth {
+  background: url(img/01_hero/hero_bg_09.jpg) top no-repeat;
+  background-size: cover;
+}
