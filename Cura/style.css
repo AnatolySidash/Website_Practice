@@ -1580,3 +1580,80 @@ button {
   background: url(img/01_hero/hero_bg_09.jpg) top no-repeat;
   background-size: cover;
 }
+
+
+/* ----------Help----------- */
+
+.help {
+  padding: 100px 10px;
+}
+
+
+.help__content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.help__image {
+  width: 40%;
+  margin-right: 60px;
+}
+
+.help__text-block {
+  width: 40%;
+}
+
+.help__text {
+  max-width: 705px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #434343;
+  margin-bottom: 20px;
+}
+
+.help__list {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #434343;
+}
+
+.help__item {
+  position: relative;
+  padding-left: 45px;
+}
+
+.help__item:not(:last-child) {
+  margin-bottom: 45px;
+}
+
+.help__item:before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #148C83;
+}
+
+
+.help__note {
+  max-width: 1150px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #434343;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title__bold {
+  font-size: 30px;
+  color: #000;
+}
+
+.help__button {
+  display: flex;
+  justify-content: center;
+}
