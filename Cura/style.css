@@ -134,7 +134,7 @@ button {
 }
 
 .hero__title {
-  max-width: 740px;
+  max-width: 840px;
   font-size: 75px;
   line-height: 1;
   color: var(--white);
@@ -1685,4 +1685,19 @@ button {
 
 .simple {
   padding: 26px 56px;
+}
+
+
+/* ----------Tenth Page----------- */
+
+/* ----------Hero----------- */
+
+.hero__tenth {
+  background: url(img/01_hero/hero_bg_10.jpg) top no-repeat;
+  background-size: cover;
+}
+
+.title__left {
+  text-align: left;
+  margin-top: 50px;
 }
