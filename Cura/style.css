@@ -1701,3 +1701,63 @@ button {
   text-align: left;
   margin-top: 50px;
 }
+
+
+.relieve {
+  width: 100%;
+  min-height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #048079 0%, #02B8AE 100%);
+  font-size: 0;
+}
+
+.relieve__item {
+  width: 50%;
+}
+
+.relieve__content {
+  padding-left: 85px;
+}
+
+.relieve__image {
+  object-fit: cover;
+}
+
+.relieve__text {
+  max-width: 720px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.method__block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.method__item {
+  width: 365px;
+  text-align: center;
+  padding: 0 35px;
+}
+
+.method__item:not(:last-child) {
+  margin-right: 150px;
+}
+
+.method__image {
+  margin-bottom: 60px;
+}
+
+.method__title {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 35px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #434343;
+  margin-bottom: 35px;
+}
