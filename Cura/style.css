@@ -1592,6 +1592,7 @@ button {
 .help__content {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 100px;
 }
 
@@ -1760,4 +1761,18 @@ button {
   text-transform: uppercase;
   color: #434343;
   margin-bottom: 35px;
+}
+
+/* ----------Eleventh Page----------- */
+
+/* ----------Hero----------- */
+
+.hero__eleventh {
+  background: url(img/01_hero/hero_bg_11.jpg) top no-repeat;
+  background-size: cover;
+}
+
+.title__long {
+  max-width: 1240px;
+  font-size: 65px;
 }
