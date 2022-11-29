@@ -1735,8 +1735,15 @@ button {
 
 .method__block {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 80px;
+  margin: 50px 0 80px;
+}
+
+.method__block_size_large {
+  width: 65%;
+  justify-content: space-evenly;
+  margin: 120px auto 80px;
 }
 
 .method__item {
@@ -1745,9 +1752,11 @@ button {
   padding: 0 35px;
 }
 
-.method__item:not(:last-child) {
-  margin-right: 150px;
+.method__item_size_large {
+  width: 40%;
+  margin: 0 auto 100px;
 }
+
 
 .method__image {
   margin-bottom: 60px;
@@ -1763,6 +1772,15 @@ button {
   margin-bottom: 35px;
 }
 
+.method__title_size_large {
+  width: 365px;
+  margin: 0 auto 35px;
+}
+
+.method__text_size_large {
+  max-width: 540px;
+}
+
 /* ----------Eleventh Page----------- */
 
 /* ----------Hero----------- */
@@ -1775,4 +1793,8 @@ button {
 .title__long {
   max-width: 1240px;
   font-size: 65px;
+}
+
+.stroke-accordion_color_beige {
+  background: linear-gradient(180deg, #FFF8F4 0%, rgba(255, 248, 244, 0.44) 100%);
 }
