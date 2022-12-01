@@ -1,54 +1,54 @@
 @font-face {
-   font-family: 'Dangrek';
+   font-family: Dangrek;
    font-weight: 400;
    font-style: normal;
    src: url(./vendor/fonts/Dangrek/Dangrek-Regular.ttf);
 }
 
 @font-face {
-   font-family: 'Oxygen';
+   font-family: Oxygen;
    font-weight: 400;
    font-style: normal;
    src: url(./vendor/fonts/Oxygen/Oxygen-Regular.ttf);
 }
 
 @font-face {
-   font-family: 'Oxygen';
+   font-family: Oxygen;
    font-weight: 700;
    font-style: normal;
    src: url(./vendor/fonts/Oxygen/Oxygen-Bold.ttf);
 }
 
 @font-face {
-   font-family: 'Roboto';
+   font-family: Roboto;
    font-weight: 300;
    font-style: normal;
    src: url(./vendor/fonts/Roboto/Roboto-Light.ttf);
 }
 
 @font-face {
-   font-family: 'Roboto';
+   font-family: Roboto;
    font-weight: 400;
    font-style: normal;
    src: url(./vendor/fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
-   font-family: 'Roboto';
+   font-family: Roboto;
    font-weight: 500;
    font-style: normal;
    src: url(./vendor/fonts/Roboto/Roboto-Medium.ttf);
 }
 
 @font-face {
-   font-family: 'Roboto';
+   font-family: Roboto;
    font-weight: 700;
    font-style: normal;
    src: url(./vendor/fonts/Roboto/Roboto-Bold.ttf);
 }
 
 @font-face {
-   font-family: 'Roboto';
+   font-family: Roboto;
    font-weight: 900;
    font-style: normal;
    src: url(./vendor/fonts/Roboto/Roboto-Black.ttf);

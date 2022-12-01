@@ -1,0 +1,21 @@
+/* ------Page------ */
+
+@import url(../Carbon/page.css);
+
+/* ------Header------ */
+
+@import url(../Carbon/blocks/header/header.css);
+
+/* ------Header-nav------ */
+
+@import url(../Carbon/blocks/header-nav/header-nav.css);
+@import url(../Carbon/blocks/header-nav/__list/header-nav__list.css);
+@import url(../Carbon/blocks/header-nav/__item/header-nav__item.css);
+@import url(../Carbon/blocks/header-nav/__link/header-nav__link.css);
+
+/* ------Hero------ */
+
+@import url(../Carbon/blocks/hero/hero.css);
+@import url(../Carbon/blocks/hero/__title/hero__title.css);
+@import url(../Carbon/blocks/hero/__image/hero__image.css);
+@import url(../Carbon/blocks/hero/__accent/hero__accent.css);
