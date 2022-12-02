@@ -19,3 +19,21 @@
 @import url(../Carbon/blocks/hero/__title/hero__title.css);
 @import url(../Carbon/blocks/hero/__image/hero__image.css);
 @import url(../Carbon/blocks/hero/__accent/hero__accent.css);
+
+/* ------Section-Title------ */
+
+@import url(../Carbon/blocks/section-title/section-title.css);
+
+/* ------Steps------ */
+
+@import url(../Carbon/blocks/steps/steps.css);
+@import url(../Carbon/blocks/steps/__list/steps__list.css);
+@import url(../Carbon/blocks/steps/__item/steps__item.css);
+@import url(../Carbon/blocks/steps/__content/steps__content.css);
+@import url(../Carbon/blocks/steps/__title/steps__title.css);
+@import url(../Carbon/blocks/steps/__text/steps__text.css);
+@import url(../Carbon/blocks/steps/__item/_position/steps__item_position_reverse.css);
+@import url(../Carbon/blocks/steps/__content/_count/steps__content_count_one.css);
+@import url(../Carbon/blocks/steps/__content/_count/steps__content_count_two.css);
+@import url(../Carbon/blocks/steps/__content/_count/steps__content_count_three.css);
+@import url(../Carbon/blocks/steps/__content/_count/steps__content_count_four.css);

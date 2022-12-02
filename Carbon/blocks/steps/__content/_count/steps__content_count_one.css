@@ -1,0 +1,10 @@
+.steps__content_count_one::before {
+   content: '';
+   position: absolute;
+   top: -20px;
+   left: 10px;
+   width: 149px;
+   height: 197px;
+   background: url(/Carbon/img/03_steps/step_1.png);
+   object-fit: cover;
+}

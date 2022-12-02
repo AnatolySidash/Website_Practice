@@ -1,0 +1,34 @@
+.section-title {
+   padding: 0;
+   margin: 0 auto;
+   text-align: center;
+   font-family: 'Dangrek';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 1.5;
+   color: #263238;
+   position: relative;
+}
+
+.section-title::before {
+   content: '';
+   position: absolute;
+   top: -7px;
+   left: 280px;
+   width: 207px;
+   height: 71px;
+   background: url(/Carbon/img/03_steps/title_left.png);
+   object-fit: cover;
+}
+
+.section-title::after {
+   content: '';
+   position: absolute;
+   top: -7px;
+   right: 280px;
+   width: 207px;
+   height: 71px;
+   background: url(/Carbon/img/03_steps/title_right.png);
+   object-fit: cover;
+}
