@@ -1,0 +1,10 @@
+.account__link {
+   text-decoration: none;
+   font-family: Gilroy;
+   font-size: 17px;
+   line-height: 21px;
+   color: #fff;
+   position: relative;
+   display: flex;
+   align-items: center;
+}

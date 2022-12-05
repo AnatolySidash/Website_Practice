@@ -1,0 +1,9 @@
+.sky {
+   position: absolute;
+   width: 1920px;
+   height: 1513px;
+   left: 0px;
+   top: -400px;
+   background: url(../../images/02_hero/HG.png);
+   z-index: 1;
+}

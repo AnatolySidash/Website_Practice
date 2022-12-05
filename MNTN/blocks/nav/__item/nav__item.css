@@ -1,0 +1,5 @@
+.nav__item {}
+
+.nav__item:not(:last-child) {
+   margin-right: 40px;
+}

@@ -1,0 +1,9 @@
+.mountains {
+   position: absolute;
+   width: 1920px;
+   height: 1422px;
+   left: 0px;
+   top: 451px;
+   background: url(../../images/02_hero/MG.png);
+   z-index: 2;
+}

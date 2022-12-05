@@ -1,0 +1,9 @@
+.mask_place_lower {
+   position: absolute;
+   width: 1920px;
+   height: 700px;
+   left: 0px;
+   top: 1200px;
+   background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+   z-index: 5;
+}

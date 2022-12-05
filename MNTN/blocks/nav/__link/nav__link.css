@@ -1,0 +1,14 @@
+.nav__link {
+   text-decoration: none;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 22px;
+   color: #fff;
+   transition: opacity .3s linear;
+}
+
+.nav__link:hover {
+   opacity: .6;
+}

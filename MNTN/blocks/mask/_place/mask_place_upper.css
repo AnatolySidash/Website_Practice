@@ -1,0 +1,9 @@
+.mask_place_upper {
+   position: absolute;
+   width: 1920px;
+   height: 1200px;
+   left: 0px;
+   top: 0px;
+   background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+   z-index: 4;
+}
