@@ -1,0 +1,23 @@
+.posts__subtitle {
+   padding: 0 0 0 96px;
+   margin: 0 0 27px 0;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 22px;
+   letter-spacing: 6px;
+   text-transform: uppercase;
+   color: #FBD784;
+   position: relative;
+}
+
+.posts__subtitle::before {
+   content: '';
+   position: absolute;
+   top: 10px;
+   left: 0;
+   width: 72px;
+   height: 2px;
+   background-color: #FBD784;
+}

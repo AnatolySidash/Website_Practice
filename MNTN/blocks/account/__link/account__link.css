@@ -7,4 +7,9 @@
    position: relative;
    display: flex;
    align-items: center;
+   transition: color .3s linear;
+}
+
+.account__link:hover {
+   color: #FBD784;
 }

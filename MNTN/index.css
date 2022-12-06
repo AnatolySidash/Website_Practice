@@ -8,7 +8,7 @@
 
 /* ------Logo------ */
 
-@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../MNTN/blocks/logo/logo.css);
 
 /* ------Header------ */
 
@@ -16,14 +16,12 @@
 
 /* ------Nav------ */
 
-@import url(../MNTN/blocks/nav/nav.css);
 @import url(../MNTN/blocks/nav/__list/nav__list.css);
 @import url(../MNTN/blocks/nav/__item/nav__item.css);
 @import url(../MNTN/blocks/nav/__link/nav__link.css);
 
 /* ------Account------ */
 
-@import url(../MNTN/blocks/account/account.css);
 @import url(../MNTN/blocks/account//__icon/account__icon.css);
 @import url(../MNTN/blocks/account/__link/account__link.css);
 
@@ -31,23 +29,62 @@
 
 @import url(../MNTN/blocks/content/content.css);
 
+/* ------Mask------ */
+
+@import url(../MNTN/blocks/mask/mask.css);
+@import url(../MNTN/blocks/mask/__sky/mask__sky.css);
+@import url(../MNTN/blocks/mask/__mountains/mask__mountains.css);
+@import url(../MNTN/blocks/mask/__man/mask__man.css);
+@import url(../MNTN/blocks/mask/__gradient/_place/mask__gradient_place_upper.css);
+@import url(../MNTN/blocks/mask/__gradient/_place/mask__gradient_place_lower.css);
+
 /* ------Hero------ */
 
 @import url(../MNTN/blocks/hero/hero.css);
+@import url(../MNTN/blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../MNTN/blocks/hero/__title/hero__title.css);
+@import url(../MNTN/blocks/hero/__link/hero__link.css);
+@import url(../MNTN/blocks/hero/__arrow/hero__arrow.css);
 
-/* ------Sky------ */
+/* ------Social------ */
 
-@import url(../MNTN/blocks/sky/sky.css);
+@import url(../MNTN/blocks/social/social.css);
+@import url(../MNTN/blocks/social/__title/social__title.css);
+@import url(../MNTN/blocks/social/__links/social__links.css);
+@import url(../MNTN/blocks/social/__item/social__item.css);
+@import url(../MNTN/blocks/social/__link/social__link.css);
 
-/* ------Mountain------ */
+/* ------Pagination------ */
 
-@import url(../MNTN/blocks/mountains/mountains.css);
+@import url(../MNTN/blocks/pagination/pagination.css);
+@import url(../MNTN/blocks/pagination/__list/pagination__list.css);
+@import url(../MNTN/blocks/pagination/__item/pagination__item.css);
+@import url(../MNTN/blocks/pagination/__link/pagination__link.css);
 
-/* ------Man------ */
+/* ------Posts------ */
 
-@import url(../MNTN/blocks/man/man.css);
+@import url(../MNTN/blocks/posts/posts.css);
+@import url(../MNTN/blocks/posts/__content/posts__content.css);
+@import url(../MNTN/blocks/posts/__image/posts__image.css);
+@import url(../MNTN/blocks/posts/__item/posts__item.css);
+@import url(../MNTN/blocks/posts/__link/posts__link.css);
+@import url(../MNTN/blocks/posts/__subtitle/posts__subtitle.css);
+@import url(../MNTN/blocks/posts/__text/posts__text.css);
+@import url(../MNTN/blocks/posts/__title/posts__title.css);
+@import url(../MNTN/blocks/posts/__item/_position/posts__item_position_reverse.css);
+@import url(../MNTN/blocks/posts/__title/_number/posts__title_number_two.css);
+@import url(../MNTN/blocks/posts/__title/_number/posts__title_number_three.css);
+@import url(../MNTN/blocks/posts/__arrow/posts__arrow.css);
 
-/* ------Mask------ */
+/* ------Footer------ */
 
-@import url(../MNTN/blocks/mask/_place/mask_place_upper.css);
-@import url(../MNTN/blocks/mask/_place/mask_place_lower.css);
+@import url(../MNTN/blocks/footer/footer.css);
+@import url(../MNTN/blocks/footer/__text/footer__text.css);
+@import url(../MNTN/blocks/footer/__copyright/footer__copyright.css);
+@import url(../MNTN/blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../MNTN/blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../MNTN/blocks/footer/__column/_content/footer__column_content_carrier.css);
+@import url(../MNTN/blocks/footer/__title/footer__title.css);
+@import url(../MNTN/blocks/footer/__list/footer__list.css);
+@import url(../MNTN/blocks/footer/__item/footer__item.css);
+@import url(../MNTN/blocks/footer/__link/footer__link.css);

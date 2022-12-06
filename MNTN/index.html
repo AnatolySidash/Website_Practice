@@ -14,7 +14,7 @@
 <body class="page">
 
    <header class="header">
-      <img class="logo logo_place_header" src="images/01_header/Logo.svg" alt="Main logo of the page MNTN">
+      <img class="logo" src="images/01_header/Logo.svg" alt="Main logo of the page MNTN">
       <nav class="nav">
          <ul class="nav__list">
             <li class="nav__item">
@@ -35,17 +35,160 @@
    </header>
 
    <main class="content">
-      <section class="hero">
-         <div class="mask_place_upper"></div>
-         <div class="mask_place_lower"></div>
-         <div class="sky"></div>
-         <div class="mountains"></div>
-         <div class="man"></div>
+
+      <div class="mask">
+         <div class="mask__gradient mask__gradient_place_upper"></div>
+         <div class="mask__gradient mask__gradient_place_lower"></div>
+         <div class="mask__sky"></div>
+         <div class="mask__mountains"></div>
+         <div class="mask__man"></div>
+      </div>
+
+      <section id="start" class="hero">
+         <div class="hero__content">
+            <h3 class="hero__subtitle">A Hiking guide</h3>
+            <h1 class="hero__title">Be prepared for the Mountains and beyond!</h1>
+            <a href="#post_1" class="hero__link">scroll down
+               <img class="hero__arrow" src="images/02_hero/arrow.png" alt="scroll down arrow">
+            </a>
+         </div>
       </section>
+
+      <section class="social">
+         <h3 class="social__title">Follow us</h3>
+         <ul class="social__links">
+            <li class="social__item">
+               <a href="#" class="social__link">
+                  <img src="images/03_social/instagram.svg" alt="Instagram">
+               </a>
+            </li>
+            <li class="social__item">
+               <a href="#" class="social__link">
+                  <img src="images/03_social/twitter.svg" alt="Twitter">
+               </a>
+            </li>
+         </ul>
+      </section>
+
+      <nav class="pagination">
+         <ul class="pagination__list">
+            <li class="pagination__item active">
+               <a href="#start" class="pagination__link">Start</a>
+            </li>
+            <li class="pagination__item">
+               <a href="#post_1" class="pagination__link">01</a>
+            </li>
+            <li class="pagination__item">
+               <a href="#post_2" class="pagination__link">02</a>
+            </li>
+            <li class="pagination__item">
+               <a href="#post_3" class="pagination__link">03</a>
+            </li>
+         </ul>
+      </nav>
+
+      <div class="posts">
+         <article id="post_1" class="posts__item">
+            <div class="posts__content">
+               <h3 class="posts__subtitle">Get Started</h3>
+               <h2 class="posts__title">What level of hiker are you?</h2>
+               <p class="posts__text">Determining what level of hiker you are can be an important tool when planning
+                  future hikes. This hiking level guide will help you plan hikes according to different hike ratings set
+                  by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate,
+                  advanced moderate, expert, or expert backpacker?
+               </p>
+               <a href="#" class="posts__link">read more
+                  <img class="posts__arrow" src="images/04_posts/arrow_right.svg" alt="read more link arrow">
+               </a>
+            </div>
+            <img src="images/04_posts/01.png" alt="Tourist is hiking alone around the mountains" class="posts__image">
+         </article>
+
+         <article id="post_2" class="posts__item posts__item_position_reverse">
+            <div class="posts__content">
+               <h3 class="posts__subtitle">Hiking Essentials</h3>
+               <h2 class="posts__title posts__title_number_two">Picking the right Hiking Gear!</h2>
+               <p class="posts__text">The nice thing about beginning hiking is that you don’t really need any special
+                  gear, you can probably get away with things you already have.
+                  Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular
+                  clothes, which will get heavy and chafe wif they get sweaty or wet.
+               </p>
+               <a href="#" class="posts__link">read more
+                  <img class="posts__arrow" src="images/04_posts/arrow_right.svg" alt="read more link arrow">
+               </a>
+            </div>
+            <img src="images/04_posts/02.png" alt="Tourist is standing alone on the top of the mountain"
+               class="posts__image">
+         </article>
+
+         <article id="post_3" class="posts__item">
+            <div class="posts__content">
+               <h3 class="posts__subtitle">Where you go is the key</h3>
+               <h2 class="posts__title posts__title_number_three">Understand Your Map & Timing</h2>
+               <p class="posts__text">To start, print out the hiking guide and map. If it’s raining, throw them in a
+                  Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to
+                  know
+                  what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I
+                  make
+                  a right turn at the junction..
+               </p>
+               <a href="#" class="posts__link">read more
+                  <img class="posts__arrow" src="images/04_posts/arrow_right.svg" alt="read more link arrow">
+               </a>
+            </div>
+            <img src="images/04_posts/03.png" alt="Tourist is looking on his compass to check the hiking direction"
+               class="posts__image">
+         </article>
+      </div>
 
    </main>
 
-   <script src="script.js"></script>
+   <footer class="footer">
+      <div class="footer__column footer__column_content_copyright">
+         <img class="logo" src="images/01_header/Logo.svg" alt="Footer logo of the page MNTN">
+         <p class="footer__text">Get out there & discover your next slope, mountain & destination!</p>
+         <p class="footer__copyright">Copyright 2019 MNTN, Inc. Terms & Privacy</p>
+      </div>
+
+      <div class="footer__column footer__column_content_info">
+         <h3 class="footer__title">More on The Blog</h3>
+         <ul class="footer__list">
+            <li class="footer__item">
+               <a href="#" class="footer__link">About MNTN</a>
+            </li>
+            <li class="footer__item">
+               <a href="#" class="footer__link">Contributors & Writers</a>
+            </li>
+            <li class="footer__item">
+               <a href="#" class="footer__link">Write For Us</a>
+            </li>
+            <li class="footer__item">
+               <a href="#" class="footer__link">Contact Us</a>
+            </li>
+            <li class="footer__item">
+               <a href="#" class="footer__link">Privacy Policy</a>
+            </li>
+         </ul>
+      </div>
+
+      <div class="footer__column footer__column_content_carrier">
+         <h3 class="footer__title">More on MNTN</h3>
+         <ul class="footer__list">
+            <li class="footer__item">
+               <a href="#" class="footer__link">The Team</a>
+            </li>
+            <li class="footer__item">
+               <a href="#" class="footer__link">Jobs</a>
+            </li>
+            <li class="footer__item">
+               <a href="#" class="footer__link">Press</a>
+            </li>
+         </ul>
+      </div>
+
+   </footer>
+
+   <script src="../MNTN/script.js"></script>
 </body>
 
 </html>

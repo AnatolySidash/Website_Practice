@@ -1,0 +1,7 @@
+.posts__item {
+   max-width: 1462px;
+   margin: 0 auto;
+   display: flex;
+   margin-bottom: 200px;
+   gap: 114px;
+}

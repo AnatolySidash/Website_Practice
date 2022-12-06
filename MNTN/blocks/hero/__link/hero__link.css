@@ -1,14 +1,17 @@
-.nav__link {
+.hero__link {
+   padding: 0;
+   margin: 0;
    text-decoration: none;
-   font-family: Gilroy;
+   font-family: 'Gilroy';
    font-style: normal;
    font-weight: 700;
    font-size: 18px;
    line-height: 22px;
    color: #fff;
+   cursor: pointer;
    transition: color .3s linear;
 }
 
-.nav__link:hover {
+.hero__link:hover {
    color: #FBD784;
 }

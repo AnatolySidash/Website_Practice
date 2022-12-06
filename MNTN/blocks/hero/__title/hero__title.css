@@ -1,0 +1,12 @@
+.hero__title {
+   padding: 0;
+   margin: 0;
+   font-family: 'Chronicle Display';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 88px;
+   line-height: 100px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   margin-bottom: 33px;
+}

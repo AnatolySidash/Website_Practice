@@ -1,0 +1,13 @@
+.social {
+   position: fixed;
+   top: 385px;
+   left: 80px;
+   height: 175px;
+   width: 24px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   gap: 24px;
+   align-items: center;
+   z-index: 10;
+}

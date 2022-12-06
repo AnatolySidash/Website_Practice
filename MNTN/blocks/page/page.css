@@ -1,6 +1,11 @@
+html {
+   scroll-behavior: smooth;
+}
+
 .page {
    max-width: 1920px;
    margin: 0 auto;
    font-family: Gilroy, Arial, sans-serif;
+   background-color: #0B1D26;
    overflow-x: hidden;
 }

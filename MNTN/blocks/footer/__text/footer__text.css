@@ -1,0 +1,12 @@
+.footer__text {
+   padding: 0;
+   margin: 24px 0 0 0;
+   max-width: 303px;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 32px;
+   color: #fff;
+   margin-bottom: 132px;
+}

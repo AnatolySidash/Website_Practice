@@ -1,0 +1,15 @@
+.posts__link {
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   font-family: 'Gilroy';
+   font-size: 18px;
+   line-height: 22px;
+   color: #FBD784;
+   display: flex;
+   transition: all .4s ease-in-out;
+}
+
+.posts__link:hover {
+   padding-left: 20px;
+}

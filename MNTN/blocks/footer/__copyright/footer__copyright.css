@@ -1,0 +1,11 @@
+.footer__copyright {
+   padding: 0 0 0 6px;
+   margin: 0;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 32px;
+   color: #fff;
+   opacity: 0.5;
+}

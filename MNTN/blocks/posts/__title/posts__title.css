@@ -1,0 +1,26 @@
+.posts__title {
+   padding: 0;
+   margin: 0 0 27px 0;
+   max-width: 555px;
+   font-family: 'Chronicle Display';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 64px;
+   line-height: 77px;
+   color: #fff;
+   position: relative;
+}
+
+.posts__title::before {
+   content: '01';
+   position: absolute;
+   top: -155px;
+   left: -150px;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 240px;
+   line-height: 240px;
+   color: #fff;
+   opacity: 0.1;
+}

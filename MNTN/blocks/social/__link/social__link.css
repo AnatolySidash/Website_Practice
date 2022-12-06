@@ -1,0 +1,11 @@
+.social__link {
+   display: block;
+   width: 24px;
+   height: 24px;
+   object-fit: cover;
+   transition: transform .3s linear;
+}
+
+.social__link:hover {
+   transform: scale(1.2);
+}

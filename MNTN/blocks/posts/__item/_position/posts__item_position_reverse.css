@@ -1,0 +1,4 @@
+.posts__item_position_reverse {
+   display: flex;
+   flex-direction: row-reverse;
+}
