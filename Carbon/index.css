@@ -37,3 +37,16 @@
 @import url(../Carbon/blocks/steps/__content/_count/steps__content_count_two.css);
 @import url(../Carbon/blocks/steps/__content/_count/steps__content_count_three.css);
 @import url(../Carbon/blocks/steps/__content/_count/steps__content_count_four.css);
+
+/* ------Offer------ */
+
+@import url(../Carbon/blocks/offer/offer.css);
+@import url(../Carbon/blocks/offer/__block/offer__block.css);
+@import url(../Carbon/blocks/offer/__block/_level/offer__block_level_low.css);
+@import url(../Carbon/blocks/offer/__block/_level/offer__block_level_middle.css);
+@import url(../Carbon/blocks/offer/__block/_level/offer__block_level_high.css);
+@import url(../Carbon/blocks/offer/__title/offer__title.css);
+@import url(../Carbon/blocks/offer/__cost/offer__cost.css);
+@import url(../Carbon/blocks/offer/__list/offer__list.css);
+@import url(../Carbon/blocks/offer/__item/offer__item.css);
+@import url(../Carbon/blocks/offer/__button/offer__button.css);

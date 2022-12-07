@@ -5,6 +5,7 @@
    left: 10px;
    width: 149px;
    height: 197px;
-   background: url(/Carbon/img/03_steps/step_3.png);
+   background: url(../../../../img/03_steps/step_3.png);
    object-fit: cover;
+   z-index: 1;
 }

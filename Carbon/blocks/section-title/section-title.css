@@ -18,7 +18,7 @@
    left: 280px;
    width: 207px;
    height: 71px;
-   background: url(/Carbon/img/03_steps/title_left.png);
+   background: url(../../img/03_steps/title_left.png);
    object-fit: cover;
 }
 
@@ -29,6 +29,6 @@
    right: 280px;
    width: 207px;
    height: 71px;
-   background: url(/Carbon/img/03_steps/title_right.png);
+   background: url(../../img/03_steps/title_right.png);
    object-fit: cover;
 }
