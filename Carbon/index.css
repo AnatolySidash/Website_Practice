@@ -46,7 +46,11 @@
 @import url(../Carbon/blocks/offer/__block/_level/offer__block_level_middle.css);
 @import url(../Carbon/blocks/offer/__block/_level/offer__block_level_high.css);
 @import url(../Carbon/blocks/offer/__title/offer__title.css);
+@import url(../Carbon/blocks/offer/__title/_color/offer__title_color_yellow.css);
 @import url(../Carbon/blocks/offer/__cost/offer__cost.css);
+@import url(../Carbon/blocks/offer/__cost/_color/offer__cost_color_yellow.css);
 @import url(../Carbon/blocks/offer/__list/offer__list.css);
 @import url(../Carbon/blocks/offer/__item/offer__item.css);
+@import url(../Carbon/blocks/offer/__item/_color/offer__item_color_white.css);
 @import url(../Carbon/blocks/offer/__button/offer__button.css);
+@import url(../Carbon/blocks/offer/__button/_color/offer__button_color_white.css);

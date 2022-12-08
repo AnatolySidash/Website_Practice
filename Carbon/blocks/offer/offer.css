@@ -1,5 +1,8 @@
 .offer {
    display: flex;
    justify-content: space-between;
-   align-items: baseline;
+   align-items: center;
+   column-gap: 40px;
+   max-width: 1272px;
+   margin: 95px auto;
 }
