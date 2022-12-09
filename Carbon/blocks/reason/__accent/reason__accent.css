@@ -1,0 +1,10 @@
+.reason__accent {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 36px;
+   line-height: 45px;
+   color: #439117;
+   padding-right: 10px;
+   max-width: 570px;
+}

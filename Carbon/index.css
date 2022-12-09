@@ -54,3 +54,12 @@
 @import url(../Carbon/blocks/offer/__item/_color/offer__item_color_white.css);
 @import url(../Carbon/blocks/offer/__button/offer__button.css);
 @import url(../Carbon/blocks/offer/__button/_color/offer__button_color_white.css);
+
+/* ------Reason------ */
+
+@import url(../Carbon/blocks/reason/reason.css);
+@import url(../Carbon/blocks/section-title/_size/section-title_size_small.css);
+@import url(../Carbon/blocks/reason/__content/reason__content.css);
+@import url(../Carbon/blocks/reason/__image/reason__image.css);
+@import url(../Carbon/blocks/reason/__text/reason__text.css);
+@import url(../Carbon/blocks/reason/__accent/reason__accent.css);
