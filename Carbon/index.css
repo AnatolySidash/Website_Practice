@@ -63,3 +63,19 @@
 @import url(../Carbon/blocks/reason/__image/reason__image.css);
 @import url(../Carbon/blocks/reason/__text/reason__text.css);
 @import url(../Carbon/blocks/reason/__accent/reason__accent.css);
+
+/* ------Cases------ */
+
+@import url(../Carbon/blocks/cases/cases.css);
+@import url(../Carbon/blocks/cases/__content/cases__content.css);
+@import url(../Carbon/blocks/cases/__item/cases__item.css);
+@import url(../Carbon/blocks/cases/__item/_size/cases__item_size_large.css);
+@import url(../Carbon/blocks/cases/__image-block/cases__image-block.css);
+@import url(../Carbon/blocks/cases/__image-block/_size/cases__image-block_size_large.css);
+@import url(../Carbon/blocks/cases/__image/cases__image.css);
+@import url(../Carbon/blocks/cases/__job/cases__job.css);
+@import url(../Carbon/blocks/cases/__info/cases__info.css);
+@import url(../Carbon/blocks/cases/__data-block/cases__data-block.css);
+@import url(../Carbon/blocks/cases/__list/cases__list.css);
+@import url(../Carbon/blocks/cases/__data/cases__data.css);
+@import url(../Carbon/blocks/cases/__accent/cases__accent.css);

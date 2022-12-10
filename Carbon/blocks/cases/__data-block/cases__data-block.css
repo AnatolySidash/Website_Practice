@@ -1,0 +1,15 @@
+.cases__data-block {
+   display: flex;
+   position: relative;
+}
+
+.cases__data-block::before {
+   content: '';
+   position: absolute;
+   top: 83px;
+   left: -110px;
+   width: 159px;
+   height: 1px;
+   background-color: #9EBD2B;
+   transform: rotate(90deg);
+}

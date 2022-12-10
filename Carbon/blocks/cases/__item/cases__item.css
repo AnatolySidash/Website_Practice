@@ -1,0 +1,13 @@
+.cases__item {
+   display: flex;
+   align-items: center;
+   max-width: 890px;
+   gap: 50px;
+   background: #fff;
+   border: 1px solid #9EBD2B;
+   border-radius: 20px;
+}
+
+.cases__item:not(:last-child) {
+   margin-bottom: 35px;
+}
