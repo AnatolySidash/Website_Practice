@@ -1,0 +1,12 @@
+.standard-block__link {
+   display: block;
+   padding: 0;
+   margin: 0;
+   font-family: 'Dangrek';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 45px;
+   color: #439117;
+   text-align: center;
+}

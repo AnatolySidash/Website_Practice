@@ -2,6 +2,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   max-width: 1246px;
    margin: 50px 0;
    gap: 88px;
 }

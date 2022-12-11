@@ -79,3 +79,12 @@
 @import url(../Carbon/blocks/cases/__list/cases__list.css);
 @import url(../Carbon/blocks/cases/__data/cases__data.css);
 @import url(../Carbon/blocks/cases/__accent/cases__accent.css);
+
+/* ------Standard-Block------ */
+
+@import url(../Carbon/blocks/standard-block/standard-block.css);
+@import url(../Carbon/blocks/standard-block/__content/standard-block__content.css);
+@import url(../Carbon/blocks/standard-block/__image/standard-block__image.css);
+@import url(../Carbon/blocks/standard-block/__info/standard-block__info.css);
+@import url(../Carbon/blocks/standard-block/__link/standard-block__link.css);
+@import url(../Carbon/blocks/standard-block/__text/standard-block__text.css);
