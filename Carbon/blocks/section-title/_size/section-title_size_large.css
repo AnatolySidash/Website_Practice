@@ -1,0 +1,7 @@
+.section-title_size_large::before {
+   left: 310px;
+}
+
+.section-title_size_large::after {
+   right: 310px;
+}

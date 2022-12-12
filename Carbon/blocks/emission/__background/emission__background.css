@@ -1,0 +1,11 @@
+.emission__background {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 1440px;
+   height: 935px;
+   background: linear-gradient(180deg, #C4E6AF 9.57%, #E5F6A9 88.32%);
+   border-radius: 10px;
+   transform: skewY(-4deg);
+   z-index: -1;
+}

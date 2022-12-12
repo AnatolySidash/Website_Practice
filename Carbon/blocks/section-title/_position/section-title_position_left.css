@@ -1,0 +1,12 @@
+.section-title_position_left {
+   text-align: left;
+   padding-left: 215px;
+}
+
+.section-title_position_left::before {
+   left: 0px;
+}
+
+.section-title_position_left::after {
+   right: 105px;
+}

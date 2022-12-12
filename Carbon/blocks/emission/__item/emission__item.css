@@ -1,0 +1,7 @@
+.emission__item {
+   margin-bottom: 30px;
+}
+
+.emission__item:first-of-type {
+   margin-top: 40px;
+}

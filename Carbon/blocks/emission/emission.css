@@ -1,0 +1,6 @@
+.emission {
+   max-width: 1440px;
+   padding: 120px 60px 75px 120px;
+   position: relative;
+   z-index: 3;
+}
