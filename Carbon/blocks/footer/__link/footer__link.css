@@ -1,0 +1,15 @@
+.footer__link {
+   padding: 0 0 0 15px;
+   margin: 0;
+   font-family: 'Dangrek';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 40px;
+   color: #439117;
+   transition: color .3s linear;
+}
+
+.footer__link:hover {
+   color: #366819;
+}

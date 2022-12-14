@@ -101,3 +101,15 @@
 @import url(../Carbon/blocks/emission/__item/emission__item.css);
 @import url(../Carbon/blocks/emission/__title/emission__title.css);
 @import url(../Carbon/blocks/emission/__text/emission__text.css);
+
+/* ------Footer------ */
+
+@import url(../Carbon/blocks/footer/footer.css);
+@import url(../Carbon/blocks/logo/_place/logo_place_footer.css);
+@import url(../Carbon/blocks/footer/__content/footer__content.css);
+@import url(../Carbon/blocks/footer/__item/footer__item.css);
+@import url(../Carbon/blocks/footer/__list/footer__list.css);
+@import url(../Carbon/blocks/footer/__title/footer__title.css);
+@import url(../Carbon/blocks/footer/__link/footer__link.css);
+@import url(../Carbon/blocks/footer/__icon/footer__icon.css);
+@import url(../Carbon/blocks/footer/__info/footer__info.css);

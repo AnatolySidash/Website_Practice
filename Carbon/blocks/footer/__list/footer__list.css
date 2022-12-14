@@ -1,0 +1,17 @@
+.footer__list {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   position: relative;
+}
+
+.footer__list::before {
+   content: "";
+   position: absolute;
+   top: 143px;
+   left: -125px;
+   width: 159px;
+   height: 1px;
+   background-color: #9EBD2B;
+   transform: rotate(90deg);
+}
