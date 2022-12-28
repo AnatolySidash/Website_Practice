@@ -1,0 +1,18 @@
+.header__link {
+   display: block;
+   text-decoration: none;
+   font-family: 'Avenir';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 31px;
+   display: flex;
+   align-items: center;
+   font-variant: small-caps;
+   color: #FFFFFF;
+   transition: all .3s linear;
+}
+
+.header__link:hover {
+   color: #6CF6FF;
+}

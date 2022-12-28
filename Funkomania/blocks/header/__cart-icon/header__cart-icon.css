@@ -1,0 +1,8 @@
+.header__cart-icon {
+   display: block;
+   transition: opacity .3s linear;
+}
+
+.header__cart-icon:hover {
+   opacity: 0.7;
+}

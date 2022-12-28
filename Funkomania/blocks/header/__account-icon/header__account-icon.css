@@ -1,0 +1,8 @@
+.header__account-icon {
+   display: block;
+   transition: opacity .3s linear;
+}
+
+.header__account-icon:hover {
+   opacity: .7;
+}

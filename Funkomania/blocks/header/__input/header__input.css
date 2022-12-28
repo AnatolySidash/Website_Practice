@@ -1,0 +1,35 @@
+.header__input {
+   background: #FFFFFF;
+   box-shadow: 6px 6px 50px rgba(55, 55, 55, 0.25);
+   border-radius: 40px;
+   border: none;
+   padding: 11px 44px;
+   position: relative;
+   outline: none;
+   transition: all .3s linear;
+}
+
+.header__input::placeholder {
+   font-family: 'Avenir';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 24px;
+   font-variant: small-caps;
+   color: #131313;
+}
+
+.header__input::before {
+   content: '';
+   position: absolute;
+   top: 8px;
+   left: 8px;
+   background: url(../../../images/01_header/search.svg) center no-repeat;
+   width: 19px;
+   height: 19px;
+   z-index: 2;
+}
+
+.header__input:focus {
+   background-color: #6CF6FF;
+}

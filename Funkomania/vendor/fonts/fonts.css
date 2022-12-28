@@ -18,3 +18,24 @@
    font-style: normal;
    src: url(./TTNormsPro-Black.woff);
 }
+
+@font-face {
+   font-family: 'Avenir';
+   font-weight: 300;
+   font-style: normal;
+   src: url(./AvenirNextCyr-Light.woff);
+}
+
+@font-face {
+   font-family: 'Avenir';
+   font-weight: 700;
+   font-style: normal;
+   src: url(./AvenirNextCyr-Bold.woff);
+}
+
+@font-face {
+   font-family: 'Avenir';
+   font-weight: 800;
+   font-style: normal;
+   src: url(./AvenirNextCyr-Heavy.woff);
+}
