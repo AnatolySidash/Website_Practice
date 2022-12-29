@@ -1,0 +1,10 @@
+.hero__image {
+   width: 324px;
+   position: relative;
+   padding-right: 91px;
+   transition: transform 0.5s ease-in-out;
+}
+
+.hero__image:hover {
+   transform: scale(1.05);
+}
