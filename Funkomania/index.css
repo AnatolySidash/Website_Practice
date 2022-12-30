@@ -48,3 +48,10 @@
 @import url(./blocks/hero/__content/hero__content.css);
 @import url(./blocks/hero/__image/hero__image.css);
 @import url(./blocks/hero/__button/hero__button.css);
+
+/* ------Brands------ */
+
+@import url(./blocks/brands/brands.css);
+@import url(./blocks/brands/__container/brands__container.css);
+@import url(./blocks/brands/__item/brands__item.css);
+@import url(./blocks/brands/__image/brands__image.css);
