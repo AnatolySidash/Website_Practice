@@ -1,5 +1,6 @@
 .hero__image {
    width: 324px;
+   height: 460px;
    position: relative;
    padding-right: 91px;
    transition: transform 0.5s ease-in-out;

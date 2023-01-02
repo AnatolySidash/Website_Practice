@@ -1,0 +1,7 @@
+.banners__block {
+   width: 40%;
+   padding: 0 0 19px 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+}

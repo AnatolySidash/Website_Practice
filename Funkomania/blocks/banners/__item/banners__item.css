@@ -1,0 +1,8 @@
+.banners__item {
+   display: flex;
+   width: 50%;
+   min-height: 511px;
+   background: url(../../../images/05_banners/elsa_bg.png) center no-repeat;
+   background-size: cover;
+   font-size: 0;
+}

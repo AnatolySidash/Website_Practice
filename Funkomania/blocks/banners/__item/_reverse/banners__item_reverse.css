@@ -1,0 +1,6 @@
+.banners__item_reverse {
+   flex-direction: row-reverse;
+   justify-content: center;
+   background: url(../../../../images/05_banners/rey_bg.png) center no-repeat;
+   background-size: cover;
+}
