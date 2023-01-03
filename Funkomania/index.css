@@ -66,3 +66,24 @@
 @import url(./blocks/banners/__title/banners__title.css);
 @import url(./blocks/banners/__link/banners__link.css);
 @import url(./blocks/banners/__image/banners__image.css);
+
+/* ------Products------ */
+
+@import url(./blocks/products/products.css);
+@import url(./blocks/products/__title/products__title.css);
+@import url(./blocks/products/__subtitle/products__subtitle.css);
+@import url(./blocks/products/__block/products__block.css);
+@import url(./blocks/products/__item/products__item.css);
+@import url(./blocks/products/__image/products__image.css);
+@import url(./blocks/products/__content/products__content.css);
+@import url(./blocks/products/__types/products__types.css);
+@import url(./blocks/products/__type/products__type.css);
+@import url(./blocks/products/__type/_color/products__type_color_blue.css);
+@import url(./blocks/products/__type/_color/products__type_color_green.css);
+@import url(./blocks/products/__type/_color/products__type_color_orange.css);
+@import url(./blocks/products/__type/_color/products__type_color_red.css);
+@import url(./blocks/products/__type/_color/products__type_color_violet.css);
+@import url(./blocks/products/__item-title/products__item-title.css);
+@import url(./blocks/products/__cost/products__cost.css);
+@import url(./blocks/products/__button/products__button.css);
+@import url(./blocks/products/__link/products__link.css);

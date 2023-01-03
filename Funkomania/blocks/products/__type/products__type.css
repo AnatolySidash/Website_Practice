@@ -1,0 +1,14 @@
+.products__type {
+   font-style: normal;
+   font-weight: 900;
+   font-size: 20px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: #fff;
+   padding: 3px 28px;
+   border-radius: 40px;
+}
+
+.products__type:not(:last-child) {
+   margin-right: 10px;
+}

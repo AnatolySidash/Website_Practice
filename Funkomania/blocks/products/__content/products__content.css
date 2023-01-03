@@ -1,0 +1,7 @@
+.products__content {
+   padding: 0 20px 20px;
+   display: flex;
+   height: 264px;
+   flex-direction: column;
+   justify-content: space-between;
+}

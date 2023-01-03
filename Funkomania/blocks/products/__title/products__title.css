@@ -1,0 +1,11 @@
+.products__title {
+   padding: 0;
+   margin: 0 auto 5px;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 60px;
+   line-height: 72px;
+   color: #fff;
+   max-width: 1000px;
+   text-align: center;
+}
