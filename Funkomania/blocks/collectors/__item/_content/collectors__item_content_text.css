@@ -1,0 +1,6 @@
+.collectors__item_content_text {
+   grid-column: 3 / 6;
+   grid-row: 2 / 4;
+   background: #3644F8;
+   padding: 86px 0 0 40px;
+}
