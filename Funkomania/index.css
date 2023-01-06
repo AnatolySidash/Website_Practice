@@ -98,3 +98,21 @@
 @import url(./blocks/collectors/__title/collectors__title.css);
 @import url(./blocks/collectors/__subtitle/collectors__subtitle.css);
 @import url(./blocks/collectors/__link/collectors__link.css);
+
+/* ------Subscribe------ */
+
+@import url(./blocks/subscribe/subscribe.css);
+@import url(./blocks/subscribe/__item/subscribe__item.css);
+@import url(./blocks/subscribe/__item/_size/subscribe__item_size_large.css);
+@import url(./blocks/subscribe/__content/subscribe__content.css);
+@import url(./blocks/subscribe/__title/subscribe__title.css);
+@import url(./blocks/subscribe/__subtitle/subscribe__subtitle.css);
+@import url(./blocks/subscribe/__input/subscribe__input.css);
+@import url(./blocks/subscribe/__link-block/subscribe__link-block.css);
+@import url(./blocks/subscribe/__link/subscribe__link.css);
+@import url(./blocks/subscribe/__icon/subscribe__icon.css);
+@import url(./blocks/subscribe/__image-block/subscribe__image-block.css);
+@import url(./blocks/subscribe/__image/subscribe__image.css);
+@import url(./blocks/subscribe/__image/_position/subscribe__image_position_center.css);
+@import url(./blocks/subscribe/__image/_position/subscribe__image_position_left.css);
+@import url(./blocks/subscribe/__image/_position/subscribe__image_position_right.css);

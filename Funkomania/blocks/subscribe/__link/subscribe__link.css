@@ -1,0 +1,12 @@
+.subscribe__link {
+   display: block;
+   transition: transform .3s linear;
+}
+
+.subscribe__link:not(:last-child) {
+   margin-right: 15px;
+}
+
+.subscribe__link:hover {
+   transform: scale(1.05);
+}

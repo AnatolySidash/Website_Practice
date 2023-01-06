@@ -1,0 +1,6 @@
+.subscribe__image_position_center {
+   position: relative;
+   z-index: 3;
+   padding-right: 120px;
+   padding-bottom: 50px;
+}

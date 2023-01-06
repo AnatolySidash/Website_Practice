@@ -1,0 +1,9 @@
+.subscribe {
+   padding: 0 60px;
+   background: url(../../images/08_subscribe/Background.png) center no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 562px;
+}
