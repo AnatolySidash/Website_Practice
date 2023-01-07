@@ -1,0 +1,7 @@
+.footer__copyright {
+   background-color: #3644F8;
+   min-height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
