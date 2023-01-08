@@ -1,4 +1,9 @@
 .footer__social-link {
    display: inline-block;
    text-decoration: none;
+   transition: transform .3s linear;
+}
+
+.footer__social-link:hover {
+   transform: scale(1.1);
 }
