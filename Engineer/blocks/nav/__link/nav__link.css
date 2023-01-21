@@ -1,0 +1,16 @@
+.nav__link {
+  display: block;
+  padding: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.nav__link:hover {
+  background-color: #3137C9;
+}
