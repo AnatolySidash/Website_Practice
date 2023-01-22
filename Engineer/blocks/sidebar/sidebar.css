@@ -1,9 +1,10 @@
 .sidebar {
   font-family: 'Inter';
   max-width: 300px;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
+  background-color: #202020;
 }

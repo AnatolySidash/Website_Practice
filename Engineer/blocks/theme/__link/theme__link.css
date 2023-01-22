@@ -1,0 +1,16 @@
+.theme__link {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #107EFF;
+  transition: color .3s ease-in-out;
+}
+
+.theme__link:hover {
+  color: #828282;
+}

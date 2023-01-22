@@ -1,0 +1,9 @@
+.content {
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  margin: 0 0 0 300px;
+  padding: 20px 0 50px 0;
+  background-color: #181818;
+  font-family: 'Inter';
+}
