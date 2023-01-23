@@ -48,3 +48,25 @@
 @import url(../blocks/theme/__footer/theme__footer.css);
 @import url(../blocks/theme/__team/theme__team.css);
 @import url(../blocks/theme/__link/theme__link.css);
+
+/* ------Article------ */
+
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__content/article__content.css);
+@import url(../blocks/article/__back-link/article__back-link.css);
+@import url(../blocks/article/__title/article__title.css);
+@import url(../blocks/article/__text/article__text.css);
+@import url(../blocks/article/__image/article__image.css);
+
+/* ------Comment------ */
+
+@import url(../blocks/comment/comment.css);
+@import url(../blocks/comment/__block/comment__block.css);
+@import url(../blocks/comment/__button/comment__button.css);
+@import url(../blocks/comment/__date/comment__date.css);
+@import url(../blocks/comment/__form/comment__form.css);
+@import url(../blocks/comment/__input/comment__input.css);
+@import url(../blocks/comment/__item/comment__item.css);
+@import url(../blocks/comment/__name/comment__name.css);
+@import url(../blocks/comment/__text/comment__text.css);
+@import url(../blocks/comment/__title/comment__title.css);
