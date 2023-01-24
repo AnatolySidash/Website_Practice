@@ -1,0 +1,20 @@
+.exam__link {
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #3137C9;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  box-shadow: 0px 4px 15px -7px rgb(48 55 201 / 30%);
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+}
+
+
+.exam__link:hover {
+  background-color: #575be6;
+}

@@ -1,0 +1,19 @@
+.comment__input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0 0 8px 0;
+  margin: 0 0 15px 0;
+  width: 100%;
+  border-bottom: 1px solid #3F3F3F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: all .3s ease-in-out;
+}
+
+.comment__input:focus {
+  border-bottom-color: #4d52eb;
+}
